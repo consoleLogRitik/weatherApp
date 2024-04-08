@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #302d2d;
+    
+}
+.card{
+    position: relative;
+    color: aliceblue;
+    font-family: "Nunito", sans-serif;
+    background: linear-gradient(#9290ef,#fbc7d4);
+    opacity: 0.8;
+    
+    width: 90%;
+    max-width: 470px;
+    margin: 50px auto ;
+    padding: 40px 40px;
+    border-radius: 30px;
+}
+#title{
+    
+    text-align: center;
+    margin: -10px 0px 30px;
+    font-weight: 700;
+}
+#title:hover{
+    transition:all cubic-bezier(0.165, 0.84, 0.44, 1) 2s;
+    color : #302d2d;
+}
+.search{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 20px;
+    
+}
+
+.search input{
+    padding: 5px;
+    position: absolute;
+    font-size: 14px;
+    width: 80%;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    text-align: left;
+
+}
+.search input:hover{
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)  1s;
+    font-size: 14px;
+    width: 81%;
+    height: 32px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    text-align: left;
+
+}
+.search button{  
+    left: 320px;
+    position: absolute;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.search button :hover{
+    transition: all ease-out .5s;
+    font-size: 22px;
+}
+.weather{
+    color:#302d2d;
+    display: none;
+}
+.weather-icon{
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 100px;
+}
+.details{
+    text-align: center;
+    font-weight: 600;
+}
+.other-details{
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.humidity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.humidity i{
+    font-size: 50px;
+}
+.humidity h3{
+    font-size: 12px;
+}
+.wind-speed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wind-speed i{
+    font-size: 50px;
+}
+.wind-speed h3{
+    font-size: 12px;
+}
