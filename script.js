@@ -56,3 +56,10 @@ searchButton.addEventListener('click',()=>{
     checkWeather();
 });
 
+searchInput.addEventListener('keypress',(e)=>{
+    document.querySelector('.weather').style.display = 'none';
+    if (e.key === "Enter") {
+        checkWeather();
+    }
+});
+
